@@ -1,0 +1,283 @@
+@import "./styles/size.css";
+@import "./styles/content.css";
+@import "./styles/additional-content.css";
+@import "./styles/features.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #4f4f4f;
+}
+
+.bd {
+  border: 1px solid red;
+}
+
+.t-a-c {
+  text-align: center;
+}
+
+.t-a-r {
+  text-align: right;
+}
+
+.t-a-l {
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.start {
+  color: red;
+  font-weight: bold;
+}
+
+.comfort {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.info-logo {
+  margin-top: 1rem;
+}
+
+.materials {
+  text-decoration: none;
+  color: #2957a4;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.level-text {
+  color: #4f4f4f;
+  text-decoration: none;
+  text-align: right;
+}
+
+.three {
+  background-color: #ffcc29;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  padding: 0.7rem 0.7rem;
+  color: #2957a4;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.hard {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.hard-info {
+  display: grid;
+  grid-template-columns: 37px 109px 109px 37px;
+  grid-template-rows: 24px 24px 24px;
+  margin-top: 6px;
+}
+
+.man {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  padding-top: 4px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.woman {
+  grid-column: 4/5;
+  grid-row: 1/4;
+  padding-top: 4px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.top-man {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 4px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bot-man {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-top: 4px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.top-woman {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  padding-top: 4px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bot-woman {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  padding-top: 4px;
+  border-bottom: 1px solid black;
+}
+
+.springs {
+  grid-column: 2/4;
+  grid-row: 3/4;
+  border-bottom: 1px solid black;
+  padding-top: 4px;
+}
+
+.warranty {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+.slider-img {
+  width: 80px;
+  height: 61px;
+}
+
+.slider-left {
+  margin-right: 34px;
+  margin-top: -20px;
+}
+
+.slider-right {
+  margin-left: 28px;
+  margin-top: -20px;
+}
+
+.name-text {
+  text-decoration: none;
+  color: #727376;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.name-text2 {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.comfort-active {
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  animation: 1.5s comfort-active;
+}
+
+@keyframes comfort-active {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.level-active {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  animation: 1.5s level-active;
+}
+
+@keyframes level-active {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hard-active {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  animation: 0.7s hard-active;
+}
+
+@keyframes hard-active {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: 0;
+  }
+}
+
+.slider-active {
+  display: flex;
+  gap: 4px;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  animation: 1.5s slider-active;
+}
+
+@keyframes slider-active {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hardness-active {
+  display: block;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  padding-left: 1rem;
+  animation: 0.7s hardness-active;
+  z-index: 1;
+}
+
+@keyframes hardness-active {
+  0% {
+    transform: translate(-300px, -180px) scale(0.5);
+    opacity: 0.3;
+  }
+  100% {
+    transform: 0;
+    opacity: 1;
+  }
+}
+
+.bio-active {
+  font-size: 14px;
+  color: red;
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  animation: 1.5s bio-active;
+}
+
+@keyframes bio-active {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

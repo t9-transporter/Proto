@@ -1,0 +1,145 @@
+.content {
+  display: grid;
+  grid-template-columns: 174px 174px 210px;
+  gap: 20px;
+  background: #f0f0f0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.content-text {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.content-btn {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  width: 166px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.content-btn2 {
+  background-color: #2957a4;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  width: 166px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.content-price-btn {
+  margin-top: 1rem;
+}
+
+.final-text {
+  color: #2957a4;
+}
+
+.schedule-text {
+  text-decoration: none;
+  font-size: 12px;
+  color: #2957a4;
+  margin-left: 1.3rem;
+}
+
+.schedule-img {
+  background-color: #e6e7e8;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+
+.content-price {
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+.text-vbig {
+  font-size: 2rem;
+  line-height: 10px;
+  color: #2957a4;
+  font-weight: bold;
+}
+
+.text-big {
+  font-size: 1.3rem;
+  color: #2957a4;
+}
+
+.delivery {
+  font-size: 12px;
+  background: #f1ece5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.delivery-header {
+  font-size: 14px;
+  line-height: 16px;
+  color: #2957a4;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.delivery-header-inactive {
+  color: rgba(114, 115, 118, 0.8);
+}
+
+.dilivery-slots {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: bold;
+  width: 170px;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-bottom: 0.5px solid #727376;
+}
+
+.v {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.s {
+  width: 19px;
+  height: 19px;
+}
+
+.final-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: -20px;
+}
+
+.delivery-price {
+  font-size: 14px;
+  color: #2957a4;
+  text-align: left;
+}
+
+.delivery-number {
+  font-weight: bold;
+  font-size: 30px;
+  color: #2957a4;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.delivery-bot {
+  margin-top: -0.5rem;
+  padding-left: 1rem;
+}
+
+.delivery-bot2 {
+  margin-top: -0.3rem;
+  padding-left: 1rem;
+  display: flex;
+  gap: 1rem;
+}
